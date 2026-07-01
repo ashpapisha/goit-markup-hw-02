@@ -1,0 +1,30 @@
+.portfolio {
+    background: #fff;
+}
+
+.portfolio__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 0 0 4px 4px;
+}
+
+.card__title {
+    color: var(--text);
+    font-size: 20px;
+    font-weight: 500;
+    margin: 32px 16px 8px;
+}
+
+.card__tag {
+    color: var(--muted);
+    margin: 0 16px 32px;
+}

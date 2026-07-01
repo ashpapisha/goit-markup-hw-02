@@ -1,0 +1,49 @@
+.header {
+    border-bottom: 1px solid var(--border);
+    background: #fff;
+}
+
+.header__inner {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 24px 0;
+}
+
+.nav__list {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav__link {
+    color: #2e2f42;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 24px 0;
+    display: block;
+}
+
+.nav__link:hover,
+.nav__link:focus {
+    color: var(--accent);
+}
+
+.contacts {
+    margin-left: auto;
+    display: flex;
+    gap: 40px;
+    font-style: normal;
+}
+
+.contacts__link {
+    color: var(--muted);
+    text-decoration: none;
+}
+
+.contacts__link:hover,
+.contacts__link:focus {
+    color: var(--accent);
+}

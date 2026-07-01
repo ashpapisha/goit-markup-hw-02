@@ -1,0 +1,13 @@
+.hero {
+    background: #2e2f42;
+    padding: 188px 0;
+    text-align: center;
+}
+
+.hero__title {
+    color: #fff;
+    font-size: 56px;
+    line-height: 1.07;
+    max-width: 496px;
+    margin: 0 auto 48px;
+}
