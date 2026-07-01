@@ -89,3 +89,8 @@ img {
 .btn--primary:focus {
     background: var(--accent-dark);
 }
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
