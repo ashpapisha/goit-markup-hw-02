@@ -1,25 +1,26 @@
 .features {
-    background: #fff;
+    padding: 120px 0;
 }
 
-.features__list {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+.features-list {
+    display: flex;
     gap: 24px;
-    list-style: none;
-    margin: 0;
-    padding: 0;
 }
 
-.feature__title {
-    color: var(--text);
+.features-item {
+    width: calc((100% - 72px) / 4);
+}
+
+.features-subtitle {
+    margin-bottom: 8px;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    margin: 0 0 8px;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
-.feature__text {
-    color: var(--muted);
-    margin: 0;
+.features-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }

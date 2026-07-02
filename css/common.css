@@ -1,31 +1,7 @@
-:root {
-    --text: #2e2f42;
-    --muted: #434455;
-    --accent: #4d5ae5;
-    --accent-dark: #404bbf;
-    --bg: #ffffff;
-    --light: #f4f4fd;
-    --border: #e7e9fc;
-}
-
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-}
-
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #ffffff;
-    line-height: 1.5;
-    margin: 0;
-}
-
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
 }
 
 ul,
@@ -35,49 +11,65 @@ ol {
     padding: 0;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
 a {
     text-decoration: none;
+    color: inherit;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    cursor: pointer;
+    font-family: inherit;
 }
 
 .container {
     width: 1158px;
-    max-width: 100%;
-    padding: 0 15px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
-.section {
-    padding: 120px 0;
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    line-height: 1.17;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
 }
 
-.section__title {
+.logo-accent {
     color: #2e2f42;
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    margin: 0 0 72px;
+}
+
+.footer-logo .logo-accent {
+    color: #f4f4fd;
 }
 
 .visually-hidden {
-    position: absolute !important;
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
+    position: absolute;
     width: 1px;
     height: 1px;
-    overflow: hidden;
-    white-space: nowrap;
+    margin: -1px;
     border: 0;
     padding: 0;
-    margin: -1px;
-}
-
-/* Базовий логотип */
-.logo {
-    color: #4d5ae5;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }

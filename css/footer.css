@@ -3,15 +3,14 @@
     padding: 100px 0;
 }
 
-.footer__inner {
-    width: 264px;
+.footer-logo {
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
-.logo__studio--footer {
-    color: #f4f4fd;
-}
-
-.footer__text {
-    margin: 16px 0 0;
+.footer-text {
+    max-width: 264px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #f4f4fd;
 }

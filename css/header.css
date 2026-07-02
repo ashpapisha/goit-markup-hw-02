@@ -1,53 +1,59 @@
 .header {
     border-bottom: 1px solid #e7e9fc;
-    background-color: #ffffff;
 }
 
-.header__inner {
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-nav {
     display: flex;
     align-items: center;
-    gap: 40px;
-    padding: 24px 0;
 }
 
-.nav__list {
+.logo {
+    margin-right: 76px;
+}
+
+.nav-list {
     display: flex;
     gap: 40px;
 }
 
-.logo__studio--header {
-    color: #2e2f42;
-}
-
-.nav__link {
-    color: #2e2f42;
-    font-weight: 500;
-    padding: 24px 0;
+.nav-link {
     display: block;
+    padding: 24px 0;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
-.nav__link:hover,
-.nav__link:focus {
-    color: #4d5ae5;
+.nav-link:hover,
+.nav-link:focus {
+    color: #404bbf;
 }
 
-.contacts {
-    margin-left: auto;
-    display: flex;
-    gap: 40px;
+.address {
     font-style: normal;
 }
 
-.contacts__list {
+.address-list {
     display: flex;
     gap: 40px;
 }
 
-.contacts__link {
+.address-link {
+    display: block;
+    padding: 24px 0;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #434455;
 }
 
-.contacts__link:hover,
-.contacts__link:focus {
-    color: #4d5ae5;
+.address-link:hover,
+.address-link:focus {
+    color: #404bbf;
 }
