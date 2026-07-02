@@ -1,6 +1,6 @@
 .header {
-    border-bottom: 1px solid var(--border);
-    background: #fff;
+    border-bottom: 1px solid #e7e9fc;
+    background-color: #ffffff;
 }
 
 .header__inner {
@@ -13,14 +13,14 @@
 .nav__list {
     display: flex;
     gap: 40px;
-    list-style: none;
-    margin: 0;
-    padding: 0;
+}
+
+.logo__studio--header {
+    color: #2e2f42;
 }
 
 .nav__link {
     color: #2e2f42;
-    text-decoration: none;
     font-weight: 500;
     padding: 24px 0;
     display: block;
@@ -28,7 +28,7 @@
 
 .nav__link:hover,
 .nav__link:focus {
-    color: var(--accent);
+    color: #4d5ae5;
 }
 
 .contacts {
@@ -38,12 +38,16 @@
     font-style: normal;
 }
 
+.contacts__list {
+    display: flex;
+    gap: 40px;
+}
+
 .contacts__link {
-    color: var(--muted);
-    text-decoration: none;
+    color: #434455;
 }
 
 .contacts__link:hover,
 .contacts__link:focus {
-    color: var(--accent);
+    color: #4d5ae5;
 }

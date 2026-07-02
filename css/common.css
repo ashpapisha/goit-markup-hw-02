@@ -15,9 +15,9 @@
 }
 
 body {
-    font-family: Roboto, system-ui, -apple-system, Segoe UI, Arial, sans-serif;
-    color: var(--muted);
-    background: var(--bg);
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #ffffff;
     line-height: 1.5;
     margin: 0;
 }
@@ -26,6 +26,17 @@ img {
     display: block;
     max-width: 100%;
     height: auto;
+}
+
+ul,
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
 }
 
 .container {
@@ -40,7 +51,7 @@ img {
 }
 
 .section__title {
-    color: var(--text);
+    color: #2e2f42;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -60,37 +71,13 @@ img {
     margin: -1px;
 }
 
-/* Links / Buttons / Logo */
+/* Базовий логотип */
 .logo {
-    color: #2e2f42;
-    text-decoration: none;
-    font-family: Raleway, sans-serif;
+    color: #4d5ae5;
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
-}
-
-.logo__accent {
-    color: var(--accent);
-}
-
-.btn {
-    cursor: pointer;
-    border: none;
-}
-
-.btn--primary {
-    background: var(--accent);
-    color: #fff;
-    padding: 16px 32px;
-    border-radius: 4px;
-}
-
-.btn--primary:hover,
-.btn--primary:focus {
-    background: var(--accent-dark);
-}
-ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+    text-transform: uppercase;
 }

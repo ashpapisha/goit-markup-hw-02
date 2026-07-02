@@ -1,22 +1,17 @@
 .footer {
-    background: #2e2f42;
+    background-color: #2e2f42;
     padding: 100px 0;
-    color: #fff;
 }
 
 .footer__inner {
     width: 264px;
 }
 
-.logo--inverse {
+.logo__studio--footer {
     color: #f4f4fd;
-    text-decoration: none;
-    font-family: Raleway, sans-serif;
-    font-weight: 700;
-    letter-spacing: 0.03em;
 }
 
 .footer__text {
     margin: 16px 0 0;
-    color: #e7e9fc;
+    color: #f4f4fd;
 }

@@ -2,229 +2,197 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- Fonts Preconnect -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebStudio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <!-- Fonts: Raleway + Roboto -->
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <!-- modern-normalize (min) -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
     />
-    <!-- main.css з імпортами -->
     <link rel="stylesheet" href="./css/main.css" />
-    <title>WebStudio</title>
   </head>
-  <body class="page">
-    <header id="header" class="header">
-      <div class="container header__inner">
-        <nav class="nav">
-          <a class="logo" href="./"
-            ><span class="logo__accent">Web</span>Studio</a
-          >
-          <ul class="nav__list">
-            <li><a class="nav__link" href="./index.html">Studio</a></li>
-            <li><a class="nav__link" href="">Portfolio</a></li>
-            <li><a class="nav__link" href="">Contacts</a></li>
-          </ul>
-        </nav>
-        <address class="contacts">
-          <ul class="contacts__list">
-            <li>
-              <a class="contacts__link" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li>
-              <a class="contacts__link" href="tel:+110001111111"
-                >+11 (000) 111-11-11</a
-              >
-            </li>
-          </ul>
-        </address>
-      </div>
+  <body>
+    <header>
+      <nav>
+        <a href="./index.html">Web<span>Studio</span></a>
+        <ul>
+          <li><a href="./index.html">Studio</a></li>
+          <li><a href="">Portfolio</a></li>
+          <li><a href="">Contacts</a></li>
+        </ul>
+      </nav>
+      <address>
+        <ul>
+          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+        </ul>
+      </address>
     </header>
 
     <main>
-      <!-- Перша секція: Hero -->
-      <section id="hero" class="hero">
-        <div class="container hero__inner">
-          <h1 class="hero__title">Effective Solutions for Your Business</h1>
-          <button class="btn btn--primary" type="button">Order Service</button>
-        </div>
+      <section>
+        <h1>Effective Solutions for Your Business</h1>
+        <button type="button">Order Service</button>
       </section>
 
-      <!-- Друга секція: Features -->
-      <section id="features" class="features section">
-        <div class="container">
-          <h2 class="visually-hidden">Our features</h2>
-          <ul class="features__list">
-            <li class="feature">
-              <h3 class="feature__title">Strategy</h3>
-              <p class="feature__text">
-                Our goal is to identify the business problem to solve with the
-                perfect and creative solution.
-              </p>
-            </li>
-            <li class="feature">
-              <h3 class="feature__title">Punctuality</h3>
-              <p class="feature__text">
-                Bring the key message to the target audience for the best price
-                within the shortest possible time.
-              </p>
-            </li>
-            <li class="feature">
-              <h3 class="feature__title">Diligence</h3>
-              <p class="feature__text">
-                Research and confirm brands with the strongest digital growth
-                opportunities and minimize risk.
-              </p>
-            </li>
-            <li class="feature">
-              <h3 class="feature__title">Technologies</h3>
-              <p class="feature__text">
-                Design practice focused on digital experiences supported by a
-                deep passion for problem‑solving.
-              </p>
-            </li>
-          </ul>
-        </div>
+      <section>
+        <h2>Our features</h2>
+        <ul>
+          <li>
+            <h3>Strategy</h3>
+            <p>
+              Our goal is to identify the business problem to solve with the
+              perfect and creative solution.
+            </p>
+          </li>
+          <li>
+            <h3>Punctuality</h3>
+            <p>
+              Bring the key message to the target audience for the best price
+              within the shortest possible time.
+            </p>
+          </li>
+          <li>
+            <h3>Diligence</h3>
+            <p>
+              Research and confirm brands with the strongest digital growth
+              opportunities and minimize risk.
+            </p>
+          </li>
+          <li>
+            <h3>Technologies</h3>
+            <p>
+              Design practice focused on digital experiences supported by a deep
+              passion for problem‑solving.
+            </p>
+          </li>
+        </ul>
       </section>
 
-      <!-- Третя секція: Team -->
-      <section id="team" class="team section">
-        <div class="container">
-          <h2 class="section__title">Our Team</h2>
-          <ul class="team__list">
-            <li class="member">
-              <img
-                src="./images/team-1.jpg"
-                alt="Mark Guerrero"
-                width="264"
-                height="260"
-              />
-              <h3 class="member__name">Mark Guerrero</h3>
-              <p class="member__role">Product Designer</p>
-            </li>
-            <li class="member">
-              <img
-                src="./images/team-2.jpg"
-                alt="Tom Ford"
-                width="264"
-                height="260"
-              />
-              <h3 class="member__name">Tom Ford</h3>
-              <p class="member__role">Frontend Developer</p>
-            </li>
-            <li class="member">
-              <img
-                src="./images/team-3.jpg"
-                alt="Camila Garcia"
-                width="264"
-                height="260"
-              />
-              <h3 class="member__name">Camila Garcia</h3>
-              <p class="member__role">Marketing</p>
-            </li>
-            <li class="member">
-              <img
-                src="./images/team-4.jpg"
-                alt="Daniel Wilson"
-                width="264"
-                height="260"
-              />
-              <h3 class="member__name">Daniel Wilson</h3>
-              <p class="member__role">UI Designer</p>
-            </li>
-          </ul>
-        </div>
+      <section>
+        <h2>Our Team</h2>
+        <ul>
+          <li>
+            <img
+              src="./images/team-1.jpg"
+              alt="Mark Guerrero"
+              width="264"
+              height="260"
+            />
+            <h3>Mark Guerrero</h3>
+            <p>Product Designer</p>
+          </li>
+          <li>
+            <img
+              src="./images/team-2.jpg"
+              alt="Tom Ford"
+              width="264"
+              height="260"
+            />
+            <h3>Tom Ford</h3>
+            <p>Frontend Developer</p>
+          </li>
+          <li>
+            <img
+              src="./images/team-3.jpg"
+              alt="Camila Garcia"
+              width="264"
+              height="260"
+            />
+            <h3>Camila Garcia</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
+            <img
+              src="./images/team-4.jpg"
+              alt="Daniel Wilson"
+              width="264"
+              height="260"
+            />
+            <h3>Daniel Wilson</h3>
+            <p>UI Designer</p>
+          </li>
+        </ul>
       </section>
 
-      <!-- Четверта секція: Portfolio -->
-      <section id="portfolio" class="portfolio section">
-        <div class="container">
-          <h2 class="section__title">Our Portfolio</h2>
-          <ul class="portfolio__list">
-            <li class="card">
-              <img
-                src="./images/portfolio-1.jpg"
-                alt="Banking App screens"
-                width="360"
-                height="300"
-              />
-              <h3 class="card__title">Banking App</h3>
-              <p class="card__tag">App</p>
-            </li>
-            <li class="card">
-              <img
-                src="./images/portfolio-2.jpg"
-                alt="Cashless payment by phone"
-                width="360"
-                height="300"
-              />
-              <h3 class="card__title">Cashless Payment</h3>
-              <p class="card__tag">Marketing</p>
-            </li>
-            <li class="card">
-              <img
-                src="./images/portfolio-3.jpg"
-                alt="Meditation App interface"
-                width="360"
-                height="300"
-              />
-              <h3 class="card__title">Meditation App</h3>
-              <p class="card__tag">App</p>
-            </li>
-            <li class="card">
-              <img
-                src="./images/portfolio-4.jpg"
-                alt="Taxi service app on phone"
-                width="360"
-                height="300"
-              />
-              <h3 class="card__title">Taxi Service</h3>
-              <p class="card__tag">Marketing</p>
-            </li>
-            <li class="card">
-              <img
-                src="./images/portfolio-5.jpg"
-                alt="Screen illustrations set"
-                width="360"
-                height="300"
-              />
-              <h3 class="card__title">Screen Illustrations</h3>
-              <p class="card__tag">Design</p>
-            </li>
-            <li class="card">
-              <img
-                src="./images/portfolio-6.jpg"
-                alt="Girl studying online courses"
-                width="360"
-                height="300"
-              />
-              <h3 class="card__title">Online Courses</h3>
-              <p class="card__tag">Marketing</p>
-            </li>
-          </ul>
-        </div>
+      <section>
+        <h2>Our Portfolio</h2>
+        <ul>
+          <li>
+            <img
+              src="./images/portfolio-1.jpg"
+              alt="Banking App screens"
+              width="360"
+              height="300"
+            />
+            <h3>Banking App</h3>
+            <p>App</p>
+          </li>
+          <li>
+            <img
+              src="./images/portfolio-2.jpg"
+              alt="Cashless payment by phone"
+              width="360"
+              height="300"
+            />
+            <h3>Cashless Payment</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
+            <img
+              src="./images/portfolio-3.jpg"
+              alt="Meditation App interface"
+              width="360"
+              height="300"
+            />
+            <h3>Meditation App</h3>
+            <p>App</p>
+          </li>
+          <li>
+            <img
+              src="./images/portfolio-4.jpg"
+              alt="Taxi service app on phone"
+              width="360"
+              height="300"
+            />
+            <h3>Taxi Service</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
+            <img
+              src="./images/portfolio-5.jpg"
+              alt="Screen illustrations set"
+              width="360"
+              height="300"
+            />
+            <h3>Screen Illustrations</h3>
+            <p>Design</p>
+          </li>
+          <li>
+            <img
+              src="./images/portfolio-6.jpg"
+              alt="Girl studying online courses"
+              width="360"
+              height="300"
+            />
+            <h3>Online Courses</h3>
+            <p>Marketing</p>
+          </li>
+        </ul>
       </section>
     </main>
 
-    <footer id="footer" class="footer">
-      <div class="container footer__inner">
-        <a class="logo logo--inverse" href="./index.html"
-          ><span class="logo__accent">Web</span>Studio</a
-        >
-        <p class="footer__text">
-          Our goal is to identify the business problem to solve with the perfect
-          and creative solution.
-        </p>
-      </div>
+    <footer>
+      <a href="./index.html">Web<span>Studio</span></a>
+      <p>
+        Our goal is to identify the business problem to solve with the perfect
+        and creative solution.
+      </p>
     </footer>
   </body>
 </html>
